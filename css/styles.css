@@ -744,6 +744,11 @@ p {
   border: none;
 }
 @media (min-width: 768px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .nav {
     display: flex;
     align-items: center;
@@ -761,11 +766,12 @@ p {
   }
   .contacts {
     display: block;
+    margin-left: auto;
   }
   .contacts-list {
     display: flex;
-    flex-direction: row;
-    gap: 40px;
+    flex-direction: column;
+    gap: 12px;
     list-style: none;
     margin: 0;
     padding: 0;
