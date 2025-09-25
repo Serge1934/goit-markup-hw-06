@@ -753,8 +753,8 @@ p {
   }
   .contacts-list {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: row;
+    gap: 40px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -766,6 +766,7 @@ p {
     padding: 120px 0;
   }
   .hero {
+    max-width: 768px;
     padding: 188px 0;
   }
   .hero-title {
