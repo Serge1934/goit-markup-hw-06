@@ -749,6 +749,12 @@ p {
     align-items: center;
     gap: 40px;
   }
+  .logo {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
   .menu {
     display: flex;
     gap: 40px;
