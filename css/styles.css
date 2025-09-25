@@ -975,12 +975,16 @@ p {
     padding: 100px 0;
   }
   .footer-wrap {
-    flex-direction: row;
-    align-items: baseline;
-    gap: 40px;
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
   }
   .footer-left {
-    margin-right: 120px;
+    margin-right: 120px; 
+    flex: 0 0 auto;
   }
   .footer-text {
     max-width: 264px;
@@ -991,10 +995,12 @@ p {
     text-align: left;
   }
   .footer-subscribe {
-    margin-left: auto;
+    margin-left: auto;  
+    flex: 0 0 453px;      
     width: 453px;
   }
   .subscribe-form {
+    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 24px;
