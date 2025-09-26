@@ -18,36 +18,38 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <nav class="nav">
-          <a href="./index.html" class="logo">Web<span>Studio</span></a>
-          <ul class="menu">
-            <li>
-              <a href="./index.html" class="menu-link link current">Studio</a>
-            </li>
-            <li><a href="" class="menu-link link">Portfolio</a></li>
-            <li><a href="" class="menu-link link">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="contacts" id="contacts">
-          <ul class="contacts-list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="contacts-link link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+11000111111" class="contacts-link link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-        <button type="button" class="menu-toggle" aria-label="Open menu">
-          <svg class="menu-icon" width="24" height="24">
-            <use href="./images/icons.svg#menu"></use>
-          </svg>
-        </button>
+      <div class="container">
+        <div class="header-container">
+          <nav class="nav">
+            <a href="./index.html" class="logo">Web<span>Studio</span></a>
+            <ul class="menu">
+              <li>
+                <a href="./index.html" class="menu-link link current">Studio</a>
+              </li>
+              <li><a href="" class="menu-link link">Portfolio</a></li>
+              <li><a href="" class="menu-link link">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="contacts" id="contacts">
+            <ul class="contacts-list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="contacts-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+11000111111" class="contacts-link link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <button type="button" class="menu-toggle" aria-label="Open menu">
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#menu"></use>
+            </svg>
+          </button>
+        </div>
       </div>
       <div class="mobile-menu">
         <button type="button" class="menu-close" aria-label="Close menu">
@@ -80,9 +82,11 @@
     </header>
     <main>
       <section class="hero section" id="hero">
-        <div class="container hero-container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn">Order Service</button>
+        <div class="container">
+          <div class="hero-container">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <button type="button" class="hero-btn">Order Service</button>
+          </div>
         </div>
       </section>
       <section class="section advantages" id="advantages">
@@ -671,118 +675,120 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-wrap">
-        <div class="footer-left">
-          <a class="footer-logo" href="./index.html">
-            <span class="logo-accent">WEB</span>STUDIO
-          </a>
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer-socials">
-          <p class="footer-socials-title">Social media</p>
-          <ul class="socials" role="list">
-            <li class="socials-item">
-              <a
-                class="socials-link"
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-              >
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-left">
+            <a class="footer-logo" href="./index.html">
+              <span class="logo-accent">WEB</span>STUDIO
+            </a>
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-socials">
+            <p class="footer-socials-title">Social media</p>
+            <ul class="socials" role="list">
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <svg
+                    class="socials-icon"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter"
+                >
+                  <svg
+                    class="socials-icon"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <svg
+                    class="socials-icon"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <svg
+                    class="socials-icon"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-subscribe">
+            <p class="footer-subscribe-title">Subscribe</p>
+            <form class="subscribe-form">
+              <label class="subscribe-label">
+                <input
+                  class="subscribe-input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                  aria-label="E-mail"
+                />
+              </label>
+              <button type="submit" class="subscribe-btn">
+                Subscribe
                 <svg
-                  class="socials-icon"
+                  class="subscribe-icon"
                   width="24"
                   height="24"
                   aria-hidden="true"
                 >
-                  <use href="./images/icons.svg#icon-instagram"></use>
+                  <use href="./images/icons.svg#icon-telegram"></use>
                 </svg>
-              </a>
-            </li>
-            <li class="socials-item">
-              <a
-                class="socials-link"
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Twitter"
-              >
-                <svg
-                  class="socials-icon"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                >
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials-item">
-              <a
-                class="socials-link"
-                href="https://www.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook"
-              >
-                <svg
-                  class="socials-icon"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                >
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials-item">
-              <a
-                class="socials-link"
-                href="https://www.linkedin.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-              >
-                <svg
-                  class="socials-icon"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                >
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-subscribe">
-          <p class="footer-subscribe-title">Subscribe</p>
-          <form class="subscribe-form">
-            <label class="subscribe-label">
-              <input
-                class="subscribe-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                required
-                aria-label="E-mail"
-              />
-            </label>
-            <button type="submit" class="subscribe-btn">
-              Subscribe
-              <svg
-                class="subscribe-icon"
-                width="24"
-                height="24"
-                aria-hidden="true"
-              >
-                <use href="./images/icons.svg#icon-telegram"></use>
-              </svg>
-            </button>
-          </form>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
