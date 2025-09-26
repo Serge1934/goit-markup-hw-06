@@ -74,8 +74,10 @@
                 stroke-linecap="round"
                 stroke-linejoin="round" />
         </symbol>
-        <symbol id="menu" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z" />
+        <symbol id="menu" viewBox="0 0 17 14">
+            <path d="M1 1H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <path d="M1 7H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <path d="M1 13H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
         </symbol>
     </defs>
 </svg>
