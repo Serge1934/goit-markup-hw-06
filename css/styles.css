@@ -97,7 +97,18 @@ p {
   font-style: normal;
 }
 .menu-toggle {
-  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  fill: #2f2f37;
 }
 .mobile-menu {
   position: fixed;
@@ -510,7 +521,6 @@ p {
   align-items: center;
 }
 .subscribe-input {
-  width: 100%;
   max-width: 288px;
   height: 40px;
   padding: 8px 16px;
