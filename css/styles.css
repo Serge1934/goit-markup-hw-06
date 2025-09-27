@@ -521,8 +521,7 @@ p {
   align-items: stretch;
 }
 .subscribe-input {
-  width: 100%;
-  max-width: 288px;
+  width: 288px;
   height: 40px;
   padding: 8px 16px;
   font-size: 12px;
