@@ -295,9 +295,8 @@ p {
 }
 .team-card img {
   display: block;
-  width: 264px;
-  height: 260px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 .team-card:hover,
 .team-card:focus {
