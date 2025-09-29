@@ -763,9 +763,6 @@ p {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .header {
-    min-height: 72px;
-  }
   .header-container {
     display: flex;
     align-items: center;
@@ -844,7 +841,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 24px;
-    row-gap: 24px;
+    row-gap: 64px;
   }
   .team-card {
     flex: 0 1 264px;
@@ -871,21 +868,31 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 72px 24px;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
   }
   .footer-left {
     flex-basis: calc((100% - 24px) / 2);
-    max-width: 264px; 
+    max-width: 264px;
+    text-align: left;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-text {
     text-align: left;
   }
   .footer-socials {
     flex-basis: calc((100% - 24px) / 2);
-    max-width: 208px; 
+    max-width: 208px;
+    text-align: left;
+  }
+  .footer-socials-title {
     text-align: left;
   }
   .footer-subscribe {
-    flex-basis: 100%; 
+    flex-basis: 100%;
     max-width: 453px;
     display: flex;
     flex-direction: column;
@@ -943,6 +950,9 @@ p {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .header {
+    padding: 0;
+  }
   .nav {
     display: flex;
     align-items: center;
@@ -959,6 +969,9 @@ p {
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+  .contacts-link {
+    font-size: 16px;
   }
   .contacts-link:hover,
   .contacts-link:focus {
