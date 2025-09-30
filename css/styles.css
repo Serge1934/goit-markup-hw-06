@@ -939,6 +939,7 @@ p {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
   }
   .footer-text {
     text-align: left;
