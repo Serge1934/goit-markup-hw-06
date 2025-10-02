@@ -227,6 +227,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  justify-content: center;
   text-align: center;
   padding: 72px;
   max-width: 428px;
@@ -873,7 +874,7 @@ p {
   }
   .hero {
     max-width: 768px;
-    padding: 120px 0;
+    padding: 112px 0;
   }
   .hero-title {
     font-size: 56px;
